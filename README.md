@@ -5,9 +5,9 @@ WPA2-Enterprise network with RADIUS authentication - Lab implementation
 > Migrating from shared-key (PSK) to individual identity-based Wi-Fi authentication
 
 ##  Architecture
-- **Access Point:** Router YAHYA — IP: 192.168.10.2
-- **RADIUS Server:** IP: 192.168.10.20 — Secret: ****
-- **SSID:** YAHYA — Security: WPA2-Enterprise
+- **Access Point:** Router xxx — IP: 192.168.x.x
+- **RADIUS Server:** IP: 192.168.x.x — Secret: ****
+- **SSID:** xxxx — Security: WPA2-Enterprise
 
 ##  Tech Used
 - FreeRADIUS Server
@@ -27,6 +27,6 @@ WPA2-Enterprise network with RADIUS authentication - Lab implementation
 - Client gets IP from DHCP **only after** successful authentication
 
 ##  Proof of Success
-- ✔️ Connected to SSID `YAHYA`
-- ✔️ IP assigned: `192.168.10.101`
+- ✔️ Connected to SSID `xxxx`
+- ✔️ IP assigned: `192.168.x.x`
 - ✔️ Ping `192.168.10.20` → Response < 1ms
